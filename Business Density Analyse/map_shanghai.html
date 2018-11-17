@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_931e84e449214211be5a4f87cabd6f91 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_931e84e449214211be5a4f87cabd6f91" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_931e84e449214211be5a4f87cabd6f91 = L.map(
+        'map_931e84e449214211be5a4f87cabd6f91', {
+        center: [33.454091399999996, 130.62417355],
+        zoom: 5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_9e58877cb0e548bf8d822ff25a158d70 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_931e84e449214211be5a4f87cabd6f91);
+    
+        var marker_3ccc189d25cb4258bc37791bb75b0662 = L.marker(
+            [31.2253441, 121.4888922],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_931e84e449214211be5a4f87cabd6f91);
+        
+    
+            var popup_cd63fbf74212413eae7f4cbc96cd9134 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_77ff3084e48d4e1aa2590ed1a0c60d58 = $('<div id="html_77ff3084e48d4e1aa2590ed1a0c60d58" style="width: 100.0%; height: 100.0%;">Shanghai City</div>')[0];
+                popup_cd63fbf74212413eae7f4cbc96cd9134.setContent(html_77ff3084e48d4e1aa2590ed1a0c60d58);
+            
+
+            marker_3ccc189d25cb4258bc37791bb75b0662.bindPopup(popup_cd63fbf74212413eae7f4cbc96cd9134)
+            ;
+
+            
+        
+    
+            var circle_marker_26b9b37ca28d4a5ea8dd55231105efd4 = L.circleMarker(
+                [31.2253441, 121.4888922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_931e84e449214211be5a4f87cabd6f91);
+            
+    
+            var popup_2d6e3107cfde40aa90fcfc84e1ca5cdc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8060975a89f94eb4a66bb13387b69170 = $('<div id="html_8060975a89f94eb4a66bb13387b69170" style="width: 100.0%; height: 100.0%;">Shanghai City</div>')[0];
+                popup_2d6e3107cfde40aa90fcfc84e1ca5cdc.setContent(html_8060975a89f94eb4a66bb13387b69170);
+            
+
+            circle_marker_26b9b37ca28d4a5ea8dd55231105efd4.bindPopup(popup_2d6e3107cfde40aa90fcfc84e1ca5cdc)
+            ;
+
+            
+        
+    
+        var marker_46c77afbaa854706a1c7ef974d89ce04 = L.marker(
+            [35.6828387, 139.7594549],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_931e84e449214211be5a4f87cabd6f91);
+        
+    
+            var popup_7f280bfa3a2643f598c573b66211ea24 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ca0a158912d64cab9c06ffcc1a07a045 = $('<div id="html_ca0a158912d64cab9c06ffcc1a07a045" style="width: 100.0%; height: 100.0%;">Tokyo City</div>')[0];
+                popup_7f280bfa3a2643f598c573b66211ea24.setContent(html_ca0a158912d64cab9c06ffcc1a07a045);
+            
+
+            marker_46c77afbaa854706a1c7ef974d89ce04.bindPopup(popup_7f280bfa3a2643f598c573b66211ea24)
+            ;
+
+            
+        
+    
+            var circle_marker_4478fb8dc83f43e9b0c0fdb231322bc7 = L.circleMarker(
+                [35.6828387, 139.7594549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3186cc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_931e84e449214211be5a4f87cabd6f91);
+            
+    
+            var popup_ed99881d75024f698aa31e146e9fb6df = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dea0bf5562e24974aa47e008e6652948 = $('<div id="html_dea0bf5562e24974aa47e008e6652948" style="width: 100.0%; height: 100.0%;">Shanghai City</div>')[0];
+                popup_ed99881d75024f698aa31e146e9fb6df.setContent(html_dea0bf5562e24974aa47e008e6652948);
+            
+
+            circle_marker_4478fb8dc83f43e9b0c0fdb231322bc7.bindPopup(popup_ed99881d75024f698aa31e146e9fb6df)
+            ;
+
+            
+        
+</script>

@@ -1,0 +1,3761 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_bac506ab1f464e208d7b1a69869e4b0d {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_bac506ab1f464e208d7b1a69869e4b0d" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_bac506ab1f464e208d7b1a69869e4b0d = L.map(
+        'map_bac506ab1f464e208d7b1a69869e4b0d', {
+        center: [31.2253441, 121.4888922],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_f840bb7e72a142aca58d1a1e3909ea41 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+    
+            var circle_marker_d2190647a68047dd9e052ed1392c353a = L.circleMarker(
+                [31.228922449156435, 121.48798249661922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_26069453a3e04831880b8e6b57feae0f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fcfb37ce593b468d8c16d1f2cb6ed527 = $('<div id="html_fcfb37ce593b468d8c16d1f2cb6ed527" style="width: 100.0%; height: 100.0%;">Yu Garden (豫园)</div>')[0];
+                popup_26069453a3e04831880b8e6b57feae0f.setContent(html_fcfb37ce593b468d8c16d1f2cb6ed527);
+            
+
+            circle_marker_d2190647a68047dd9e052ed1392c353a.bindPopup(popup_26069453a3e04831880b8e6b57feae0f)
+            ;
+
+            
+        
+    
+            var circle_marker_2c7b99a3290d45eda81378066087c758 = L.circleMarker(
+                [31.228208520310947, 121.4955932865478],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_22abac60ec294b09b2b4047da1d17175 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_35917512eb514e90b6f1d105e7f94e0c = $('<div id="html_35917512eb514e90b6f1d105e7f94e0c" style="width: 100.0%; height: 100.0%;">CHAR Bar</div>')[0];
+                popup_22abac60ec294b09b2b4047da1d17175.setContent(html_35917512eb514e90b6f1d105e7f94e0c);
+            
+
+            circle_marker_2c7b99a3290d45eda81378066087c758.bindPopup(popup_22abac60ec294b09b2b4047da1d17175)
+            ;
+
+            
+        
+    
+            var circle_marker_9998067547fd433ea9acf7c8e1ffb3be = L.circleMarker(
+                [31.228193092999444, 121.49557070601014],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_316ae095415a4f93a72a2d40a99c892f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3b8c692bd2404296a0fb5ccc4cbce003 = $('<div id="html_3b8c692bd2404296a0fb5ccc4cbce003" style="width: 100.0%; height: 100.0%;">Hotel Indigo Shanghai On The Bund (上海外灘英迪格酒店)</div>')[0];
+                popup_316ae095415a4f93a72a2d40a99c892f.setContent(html_3b8c692bd2404296a0fb5ccc4cbce003);
+            
+
+            circle_marker_9998067547fd433ea9acf7c8e1ffb3be.bindPopup(popup_316ae095415a4f93a72a2d40a99c892f)
+            ;
+
+            
+        
+    
+            var circle_marker_8a95c4a148ed4b33b9518b1084869622 = L.circleMarker(
+                [31.22785855139222, 121.48753566826004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_2851e9443d474457b9c6222169bd4465 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd9f3d2ab27544909f3fd6031e044947 = $('<div id="html_cd9f3d2ab27544909f3fd6031e044947" style="width: 100.0%; height: 100.0%;">City of God Temple (城隍庙)</div>')[0];
+                popup_2851e9443d474457b9c6222169bd4465.setContent(html_cd9f3d2ab27544909f3fd6031e044947);
+            
+
+            circle_marker_8a95c4a148ed4b33b9518b1084869622.bindPopup(popup_2851e9443d474457b9c6222169bd4465)
+            ;
+
+            
+        
+    
+            var circle_marker_824d3a500f6c4f3a9656235128f504b9 = L.circleMarker(
+                [31.234878303167246, 121.48672985761824],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ec1bb4e468b14946b12650ece1c10b10 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_53e626fe4b2541a688905df5020d020d = $('<div id="html_53e626fe4b2541a688905df5020d020d" style="width: 100.0%; height: 100.0%;">Goodfellas</div>')[0];
+                popup_ec1bb4e468b14946b12650ece1c10b10.setContent(html_53e626fe4b2541a688905df5020d020d);
+            
+
+            circle_marker_824d3a500f6c4f3a9656235128f504b9.bindPopup(popup_ec1bb4e468b14946b12650ece1c10b10)
+            ;
+
+            
+        
+    
+            var circle_marker_3121556af6ec46b6bda5e52cc56ba794 = L.circleMarker(
+                [31.233042404915437, 121.48965749098183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_108de69bcb924f6bb4e943399e90615c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_73a11a219a7d4ddcaad75655fb40d822 = $('<div id="html_73a11a219a7d4ddcaad75655fb40d822" style="width: 100.0%; height: 100.0%;">el Willy</div>')[0];
+                popup_108de69bcb924f6bb4e943399e90615c.setContent(html_73a11a219a7d4ddcaad75655fb40d822);
+            
+
+            circle_marker_3121556af6ec46b6bda5e52cc56ba794.bindPopup(popup_108de69bcb924f6bb4e943399e90615c)
+            ;
+
+            
+        
+    
+            var circle_marker_41e22c4f37ef476c953625d8628c59c8 = L.circleMarker(
+                [31.23471124611373, 121.4863109609542],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_8a87bc6dd3ab4986816fc6f25e32f875 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b37d91fd3cf24104bead5e34760a1f53 = $('<div id="html_b37d91fd3cf24104bead5e34760a1f53" style="width: 100.0%; height: 100.0%;">Lost Heaven Yunnan Restaurant (花马天堂云南餐厅)</div>')[0];
+                popup_8a87bc6dd3ab4986816fc6f25e32f875.setContent(html_b37d91fd3cf24104bead5e34760a1f53);
+            
+
+            circle_marker_41e22c4f37ef476c953625d8628c59c8.bindPopup(popup_8a87bc6dd3ab4986816fc6f25e32f875)
+            ;
+
+            
+        
+    
+            var circle_marker_819979e366f2477ab40a13938af727a1 = L.circleMarker(
+                [31.23547917688771, 121.48537791728053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3ab983b1ab3446c6aeb7e7611e2c6d60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_63985cddcbd9471d8c13c271ed96e868 = $('<div id="html_63985cddcbd9471d8c13c271ed96e868" style="width: 100.0%; height: 100.0%;">Waldorf Astoria Shanghai on the Bund (外滩华尔道夫酒店)</div>')[0];
+                popup_3ab983b1ab3446c6aeb7e7611e2c6d60.setContent(html_63985cddcbd9471d8c13c271ed96e868);
+            
+
+            circle_marker_819979e366f2477ab40a13938af727a1.bindPopup(popup_3ab983b1ab3446c6aeb7e7611e2c6d60)
+            ;
+
+            
+        
+    
+            var circle_marker_058fedd92bb14780a7bce43cdaaa1496 = L.circleMarker(
+                [31.236374417637105, 121.48650645387544],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ea2c3e447c054e448dee133ef2e46f38 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_39748d635f264513ab1b9b1f502f17a0 = $('<div id="html_39748d635f264513ab1b9b1f502f17a0" style="width: 100.0%; height: 100.0%;">Mercato</div>')[0];
+                popup_ea2c3e447c054e448dee133ef2e46f38.setContent(html_39748d635f264513ab1b9b1f502f17a0);
+            
+
+            circle_marker_058fedd92bb14780a7bce43cdaaa1496.bindPopup(popup_ea2c3e447c054e448dee133ef2e46f38)
+            ;
+
+            
+        
+    
+            var circle_marker_f9f49b71be9e450b839842a9c1d3b79d = L.circleMarker(
+                [31.229481629168674, 121.48350119590759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_5f322763e2ec4ffeb00932a58d9b0537 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d009b9968e240dab8f0aafe34704fa1 = $('<div id="html_7d009b9968e240dab8f0aafe34704fa1" style="width: 100.0%; height: 100.0%;">Yu Garden Café</div>')[0];
+                popup_5f322763e2ec4ffeb00932a58d9b0537.setContent(html_7d009b9968e240dab8f0aafe34704fa1);
+            
+
+            circle_marker_f9f49b71be9e450b839842a9c1d3b79d.bindPopup(popup_5f322763e2ec4ffeb00932a58d9b0537)
+            ;
+
+            
+        
+    
+            var circle_marker_d1893a526a8f4889b32b8e9efa473773 = L.circleMarker(
+                [31.237745841571595, 121.4921631747552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_4087690035bb4caa8a65b55e6333bdd9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b3a2f4647a454bee80cd35fe0ec383e0 = $('<div id="html_b3a2f4647a454bee80cd35fe0ec383e0" style="width: 100.0%; height: 100.0%;">Pudong Riverside Promenade</div>')[0];
+                popup_4087690035bb4caa8a65b55e6333bdd9.setContent(html_b3a2f4647a454bee80cd35fe0ec383e0);
+            
+
+            circle_marker_d1893a526a8f4889b32b8e9efa473773.bindPopup(popup_4087690035bb4caa8a65b55e6333bdd9)
+            ;
+
+            
+        
+    
+            var circle_marker_23ff99cdb2874f05a2428de138953179 = L.circleMarker(
+                [31.23022194681119, 121.49353163335934],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c528b3c0c4f74c4f866b5aa831aa78e3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ff3f95ce2b0f4be98c334761bb331d66 = $('<div id="html_ff3f95ce2b0f4be98c334761bb331d66" style="width: 100.0%; height: 100.0%;">Bund Waterfront - 16 Pu.</div>')[0];
+                popup_c528b3c0c4f74c4f866b5aa831aa78e3.setContent(html_ff3f95ce2b0f4be98c334761bb331d66);
+            
+
+            circle_marker_23ff99cdb2874f05a2428de138953179.bindPopup(popup_c528b3c0c4f74c4f866b5aa831aa78e3)
+            ;
+
+            
+        
+    
+            var circle_marker_53ece05c650348dfa78961dec3da40a2 = L.circleMarker(
+                [31.234360399778243, 121.4864214622339],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_6cc92bb0421142c98cd688c1ae750dd7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_54cc304c63fe41e08fe3a49153abe17d = $('<div id="html_54cc304c63fe41e08fe3a49153abe17d" style="width: 100.0%; height: 100.0%;">Lost Heaven Lounge (花马天堂酒吧)</div>')[0];
+                popup_6cc92bb0421142c98cd688c1ae750dd7.setContent(html_54cc304c63fe41e08fe3a49153abe17d);
+            
+
+            circle_marker_53ece05c650348dfa78961dec3da40a2.bindPopup(popup_6cc92bb0421142c98cd688c1ae750dd7)
+            ;
+
+            
+        
+    
+            var circle_marker_ab2f170544dd4988938388994dbc3207 = L.circleMarker(
+                [31.225639286106947, 121.47617694700448],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_d580ea90315f48c1b41d7e9a232ec653 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0f38266f2bdb407fb943e8d3bc226f79 = $('<div id="html_0f38266f2bdb407fb943e8d3bc226f79" style="width: 100.0%; height: 100.0%;">Fraser Residence Shanghai</div>')[0];
+                popup_d580ea90315f48c1b41d7e9a232ec653.setContent(html_0f38266f2bdb407fb943e8d3bc226f79);
+            
+
+            circle_marker_ab2f170544dd4988938388994dbc3207.bindPopup(popup_d580ea90315f48c1b41d7e9a232ec653)
+            ;
+
+            
+        
+    
+            var circle_marker_47c95202a8794b788c404703d928f015 = L.circleMarker(
+                [31.232123106104904, 121.47914381462995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_e13af5f8e2a944b283bba8afb7a72b55 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_af0affd53510414a99eb645a643e62d3 = $('<div id="html_af0affd53510414a99eb645a643e62d3" style="width: 100.0%; height: 100.0%;">Campanile Hotel and Restaurant</div>')[0];
+                popup_e13af5f8e2a944b283bba8afb7a72b55.setContent(html_af0affd53510414a99eb645a643e62d3);
+            
+
+            circle_marker_47c95202a8794b788c404703d928f015.bindPopup(popup_e13af5f8e2a944b283bba8afb7a72b55)
+            ;
+
+            
+        
+    
+            var circle_marker_f605eaed06624ee59260450d737fb4af = L.circleMarker(
+                [31.23931586181669, 121.48606538772583],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_f2b403d5ed09421182ac41870c7ec4d8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c9954dd35dcc4baf973f3136dc291f42 = $('<div id="html_c9954dd35dcc4baf973f3136dc291f42" style="width: 100.0%; height: 100.0%;">The Bund (外滩)</div>')[0];
+                popup_f2b403d5ed09421182ac41870c7ec4d8.setContent(html_c9954dd35dcc4baf973f3136dc291f42);
+            
+
+            circle_marker_f605eaed06624ee59260450d737fb4af.bindPopup(popup_f2b403d5ed09421182ac41870c7ec4d8)
+            ;
+
+            
+        
+    
+            var circle_marker_9c9b3acda8d14c58a25e130c283c851f = L.circleMarker(
+                [31.236473407450358, 121.48630621468445],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_e7f901a743ed442cad234fc232edc4ae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_978c02dd707d40b29d8ffc59de2fb02c = $('<div id="html_978c02dd707d40b29d8ffc59de2fb02c" style="width: 100.0%; height: 100.0%;">M on the Bund (米氏西餐庁)</div>')[0];
+                popup_e7f901a743ed442cad234fc232edc4ae.setContent(html_978c02dd707d40b29d8ffc59de2fb02c);
+            
+
+            circle_marker_9c9b3acda8d14c58a25e130c283c851f.bindPopup(popup_e7f901a743ed442cad234fc232edc4ae)
+            ;
+
+            
+        
+    
+            var circle_marker_3a261eb05aa64146839eb75d69815c30 = L.circleMarker(
+                [31.236644786617713, 121.48457607640889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_1da7b37f3c804c0894847bfafd6582ad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_627184cd1d864e39a73856a5f3a4f9b1 = $('<div id="html_627184cd1d864e39a73856a5f3a4f9b1" style="width: 100.0%; height: 100.0%;">Da Hu Chun (大壶春)</div>')[0];
+                popup_1da7b37f3c804c0894847bfafd6582ad.setContent(html_627184cd1d864e39a73856a5f3a4f9b1);
+            
+
+            circle_marker_3a261eb05aa64146839eb75d69815c30.bindPopup(popup_1da7b37f3c804c0894847bfafd6582ad)
+            ;
+
+            
+        
+    
+            var circle_marker_ca1ea472fe2f4bf9b9aae10c70be244e = L.circleMarker(
+                [31.235833243463592, 121.48690891567877],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_90bf6e93daf74a77b2e5b1eebd63cf8c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e90adbd50cb24b57aeaad8dcdb65b747 = $('<div id="html_e90adbd50cb24b57aeaad8dcdb65b747" style="width: 100.0%; height: 100.0%;">Long Bar</div>')[0];
+                popup_90bf6e93daf74a77b2e5b1eebd63cf8c.setContent(html_e90adbd50cb24b57aeaad8dcdb65b747);
+            
+
+            circle_marker_ca1ea472fe2f4bf9b9aae10c70be244e.bindPopup(popup_90bf6e93daf74a77b2e5b1eebd63cf8c)
+            ;
+
+            
+        
+    
+            var circle_marker_8dcc56471aa247a1a1607f6c0ebbcbd6 = L.circleMarker(
+                [31.233976285819505, 121.48839845084198],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_78b28ffc9ea34f98aaa1e83f98301780 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_655b78791823472693cc070ca1df53ff = $('<div id="html_655b78791823472693cc070ca1df53ff" style="width: 100.0%; height: 100.0%;">Les Suites Orient (上海东方商旅酒店)</div>')[0];
+                popup_78b28ffc9ea34f98aaa1e83f98301780.setContent(html_655b78791823472693cc070ca1df53ff);
+            
+
+            circle_marker_8dcc56471aa247a1a1607f6c0ebbcbd6.bindPopup(popup_78b28ffc9ea34f98aaa1e83f98301780)
+            ;
+
+            
+        
+    
+            var circle_marker_68f42a0ce05d456285dd13aa797dc82d = L.circleMarker(
+                [31.22681658651277, 121.50542298270432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_5880e933c2aa40fd9f32fc61a6ac7c30 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_20f78383a62d443596acfc689fd1afa9 = $('<div id="html_20f78383a62d443596acfc689fd1afa9" style="width: 100.0%; height: 100.0%;">La Parisienne</div>')[0];
+                popup_5880e933c2aa40fd9f32fc61a6ac7c30.setContent(html_20f78383a62d443596acfc689fd1afa9);
+            
+
+            circle_marker_68f42a0ce05d456285dd13aa797dc82d.bindPopup(popup_5880e933c2aa40fd9f32fc61a6ac7c30)
+            ;
+
+            
+        
+    
+            var circle_marker_90a8a5a054b44865b5178dba0ffcc076 = L.circleMarker(
+                [31.236498, 121.501228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_67c7b6b98ffe4e87a7a243ca3a02ee1d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_67a8d423d5d6438e8a1dbaf5393577c3 = $('<div id="html_67a8d423d5d6438e8a1dbaf5393577c3" style="width: 100.0%; height: 100.0%;">The Ritz-Carlton Shanghai Pudong (上海浦东丽思卡尔顿酒店)</div>')[0];
+                popup_67c7b6b98ffe4e87a7a243ca3a02ee1d.setContent(html_67a8d423d5d6438e8a1dbaf5393577c3);
+            
+
+            circle_marker_90a8a5a054b44865b5178dba0ffcc076.bindPopup(popup_67c7b6b98ffe4e87a7a243ca3a02ee1d)
+            ;
+
+            
+        
+    
+            var circle_marker_c19247c3ed2f4faeb50f364bb297b41e = L.circleMarker(
+                [31.23566203190841, 121.50121075069241],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_21c5a4316e4043bdabfd592bbed46d98 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_945481813aef4a7fbc2b73245b866cb0 = $('<div id="html_945481813aef4a7fbc2b73245b866cb0" style="width: 100.0%; height: 100.0%;">Shanghai Tower Observation Deck</div>')[0];
+                popup_21c5a4316e4043bdabfd592bbed46d98.setContent(html_945481813aef4a7fbc2b73245b866cb0);
+            
+
+            circle_marker_c19247c3ed2f4faeb50f364bb297b41e.bindPopup(popup_21c5a4316e4043bdabfd592bbed46d98)
+            ;
+
+            
+        
+    
+            var circle_marker_63e1e4a4a7644e22965ba542a5b85164 = L.circleMarker(
+                [31.23762334862592, 121.49567997418599],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3d4857e6f16948dc8aafad1ed4aa3699 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_302b4e14e9384e17abbed4666830cc7d = $('<div id="html_302b4e14e9384e17abbed4666830cc7d" style="width: 100.0%; height: 100.0%;">Pudong Shangri-La Hotel (浦东香格里拉大酒店)</div>')[0];
+                popup_3d4857e6f16948dc8aafad1ed4aa3699.setContent(html_302b4e14e9384e17abbed4666830cc7d);
+            
+
+            circle_marker_63e1e4a4a7644e22965ba542a5b85164.bindPopup(popup_3d4857e6f16948dc8aafad1ed4aa3699)
+            ;
+
+            
+        
+    
+            var circle_marker_6c26db6e4be2493cb9026fd08728e029 = L.circleMarker(
+                [31.220995689347884, 121.47087846126338],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3878cc77597a4b2ca6424ba1d6f19e67 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9b82a3292bda41aaaf0cee334e819691 = $('<div id="html_9b82a3292bda41aaaf0cee334e819691" style="width: 100.0%; height: 100.0%;">Din Tai Fung (鼎泰丰)</div>')[0];
+                popup_3878cc77597a4b2ca6424ba1d6f19e67.setContent(html_9b82a3292bda41aaaf0cee334e819691);
+            
+
+            circle_marker_6c26db6e4be2493cb9026fd08728e029.bindPopup(popup_3878cc77597a4b2ca6424ba1d6f19e67)
+            ;
+
+            
+        
+    
+            var circle_marker_56932aef22194b9982a4ab45f3ffc4ad = L.circleMarker(
+                [31.222215225264783, 121.5012679589067],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ce5abf11d9f44aa09d7f7bdb09246066 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98fbcbd1ecd84d6fb1994834627cd191 = $('<div id="html_98fbcbd1ecd84d6fb1994834627cd191" style="width: 100.0%; height: 100.0%;">The Waterhouse at South Bund</div>')[0];
+                popup_ce5abf11d9f44aa09d7f7bdb09246066.setContent(html_98fbcbd1ecd84d6fb1994834627cd191);
+            
+
+            circle_marker_56932aef22194b9982a4ab45f3ffc4ad.bindPopup(popup_ce5abf11d9f44aa09d7f7bdb09246066)
+            ;
+
+            
+        
+    
+            var circle_marker_13dcdd5db4284cdd87900d59c6fe24ed = L.circleMarker(
+                [31.24086541240423, 121.48474237482466],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ac9d00126b0043ba900d1d4c783a31ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ea9ec9a9bf4043048126fb623f710f0f = $('<div id="html_ea9ec9a9bf4043048126fb623f710f0f" style="width: 100.0%; height: 100.0%;">Fairmont Peace Hotel (和平饭店)</div>')[0];
+                popup_ac9d00126b0043ba900d1d4c783a31ac.setContent(html_ea9ec9a9bf4043048126fb623f710f0f);
+            
+
+            circle_marker_13dcdd5db4284cdd87900d59c6fe24ed.bindPopup(popup_ac9d00126b0043ba900d1d4c783a31ac)
+            ;
+
+            
+        
+    
+            var circle_marker_80464a5c994e49aca1ce2b308d2b6c04 = L.circleMarker(
+                [31.24039829876376, 121.48527145385742],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_07c8996f81444ea0b35077f29ea658b1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5dab4641eb8f459baa6aa0de90d3771f = $('<div id="html_5dab4641eb8f459baa6aa0de90d3771f" style="width: 100.0%; height: 100.0%;">Ultraviolet by Paul Pairet</div>')[0];
+                popup_07c8996f81444ea0b35077f29ea658b1.setContent(html_5dab4641eb8f459baa6aa0de90d3771f);
+            
+
+            circle_marker_80464a5c994e49aca1ce2b308d2b6c04.bindPopup(popup_07c8996f81444ea0b35077f29ea658b1)
+            ;
+
+            
+        
+    
+            var circle_marker_02bb1af1eb3349bc8efefd3e1a8ba346 = L.circleMarker(
+                [31.240449900451456, 121.4856198339283],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_fc8d0bf66fc847519d6d85bd52bae963 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a485aff0f6ff499baaab988218bc1f9d = $('<div id="html_a485aff0f6ff499baaab988218bc1f9d" style="width: 100.0%; height: 100.0%;">Mr &amp; Mrs Bund - Modern Eatery by Paul Pairet</div>')[0];
+                popup_fc8d0bf66fc847519d6d85bd52bae963.setContent(html_a485aff0f6ff499baaab988218bc1f9d);
+            
+
+            circle_marker_02bb1af1eb3349bc8efefd3e1a8ba346.bindPopup(popup_fc8d0bf66fc847519d6d85bd52bae963)
+            ;
+
+            
+        
+    
+            var circle_marker_76f189fceb5545e6896830542cbc623f = L.circleMarker(
+                [31.236265884888713, 121.48648639829497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_7d8781b5c0e54a079711959739734ee8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98361ed3227a41beacc2ef46e248126d = $('<div id="html_98361ed3227a41beacc2ef46e248126d" style="width: 100.0%; height: 100.0%;">Three on the Bund</div>')[0];
+                popup_7d8781b5c0e54a079711959739734ee8.setContent(html_98361ed3227a41beacc2ef46e248126d);
+            
+
+            circle_marker_76f189fceb5545e6896830542cbc623f.bindPopup(popup_7d8781b5c0e54a079711959739734ee8)
+            ;
+
+            
+        
+    
+            var circle_marker_52739c2a284640f5918a2123b4017a52 = L.circleMarker(
+                [31.236379747706433, 121.48654261993012],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c750ffe2e0904a129d3c6630f4a70b11 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0acec61beac74fcca8f2e65e14aa752e = $('<div id="html_0acec61beac74fcca8f2e65e14aa752e" style="width: 100.0%; height: 100.0%;">Jean Georges</div>')[0];
+                popup_c750ffe2e0904a129d3c6630f4a70b11.setContent(html_0acec61beac74fcca8f2e65e14aa752e);
+            
+
+            circle_marker_52739c2a284640f5918a2123b4017a52.bindPopup(popup_c750ffe2e0904a129d3c6630f4a70b11)
+            ;
+
+            
+        
+    
+            var circle_marker_183933b34f3c4424a3fc2d4d58e68501 = L.circleMarker(
+                [31.240435648293435, 121.48553691298822],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3a1e3be8abf64dd1a3269268a7885dd9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_977b377145514d7e8caa3cfa694c1aae = $('<div id="html_977b377145514d7e8caa3cfa694c1aae" style="width: 100.0%; height: 100.0%;">Hakkasan</div>')[0];
+                popup_3a1e3be8abf64dd1a3269268a7885dd9.setContent(html_977b377145514d7e8caa3cfa694c1aae);
+            
+
+            circle_marker_183933b34f3c4424a3fc2d4d58e68501.bindPopup(popup_3a1e3be8abf64dd1a3269268a7885dd9)
+            ;
+
+            
+        
+    
+            var circle_marker_42a4279c3e9a41c6884b7bbc6eccc186 = L.circleMarker(
+                [31.243049205691324, 121.48456407107089],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_938419482dca4319b9324506e7e19634 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_36dd4a13eb2540bd99738cf07407d944 = $('<div id="html_36dd4a13eb2540bd99738cf07407d944" style="width: 100.0%; height: 100.0%;">The Peninsula Shanghai</div>')[0];
+                popup_938419482dca4319b9324506e7e19634.setContent(html_36dd4a13eb2540bd99738cf07407d944);
+            
+
+            circle_marker_42a4279c3e9a41c6884b7bbc6eccc186.bindPopup(popup_938419482dca4319b9324506e7e19634)
+            ;
+
+            
+        
+    
+            var circle_marker_76fb49d2550145479c0c52dddeb67b12 = L.circleMarker(
+                [31.240000631981296, 121.48167838987274],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_4d609434061545379134cf058e5c35b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f21607d77a0c4f47a4f728370d79a644 = $('<div id="html_f21607d77a0c4f47a4f728370d79a644" style="width: 100.0%; height: 100.0%;">The Shanghai EDITION</div>')[0];
+                popup_4d609434061545379134cf058e5c35b8.setContent(html_f21607d77a0c4f47a4f728370d79a644);
+            
+
+            circle_marker_76fb49d2550145479c0c52dddeb67b12.bindPopup(popup_4d609434061545379134cf058e5c35b8)
+            ;
+
+            
+        
+    
+            var circle_marker_8814a3d145b34bf081812545e87935a0 = L.circleMarker(
+                [31.23737885118352, 121.4767540291764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c27fae46546e4b8289723e4a944ad011 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b7af007e7bc04992a213a71d1b3b1d01 = $('<div id="html_b7af007e7bc04992a213a71d1b3b1d01" style="width: 100.0%; height: 100.0%;">Grand Central Hotel Shanghai (上海大酒店)</div>')[0];
+                popup_c27fae46546e4b8289723e4a944ad011.setContent(html_b7af007e7bc04992a213a71d1b3b1d01);
+            
+
+            circle_marker_8814a3d145b34bf081812545e87935a0.bindPopup(popup_c27fae46546e4b8289723e4a944ad011)
+            ;
+
+            
+        
+    
+            var circle_marker_c77899bf9f2647789eb3f72310638e32 = L.circleMarker(
+                [31.236209134082785, 121.48643221517317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ab59deba2917443996f591450918c32d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_427a9a65b4a94317ae3e195e7a165a41 = $('<div id="html_427a9a65b4a94317ae3e195e7a165a41" style="width: 100.0%; height: 100.0%;">POP</div>')[0];
+                popup_ab59deba2917443996f591450918c32d.setContent(html_427a9a65b4a94317ae3e195e7a165a41);
+            
+
+            circle_marker_c77899bf9f2647789eb3f72310638e32.bindPopup(popup_ab59deba2917443996f591450918c32d)
+            ;
+
+            
+        
+    
+            var circle_marker_985f27f8a71b4fe883fad3fa5b5a1a75 = L.circleMarker(
+                [31.23698135631391, 121.50142145314835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_1c23b3d70a8d4e84bd3a03d7acdd571f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4fed0343254a4b96a470984075b33b24 = $('<div id="html_4fed0343254a4b96a470984075b33b24" style="width: 100.0%; height: 100.0%;">Grand Hyatt Shanghai</div>')[0];
+                popup_1c23b3d70a8d4e84bd3a03d7acdd571f.setContent(html_4fed0343254a4b96a470984075b33b24);
+            
+
+            circle_marker_985f27f8a71b4fe883fad3fa5b5a1a75.bindPopup(popup_1c23b3d70a8d4e84bd3a03d7acdd571f)
+            ;
+
+            
+        
+    
+            var circle_marker_29a7559da55942e7a34d69cd6ce2b2ed = L.circleMarker(
+                [31.221941, 121.475431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_6bc5a694cca74cba9f88d71e74947a7d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_58c461793a2745cabebbe5388d9afb04 = $('<div id="html_58c461793a2745cabebbe5388d9afb04" style="width: 100.0%; height: 100.0%;">Andaz Xintiandi Shanghai (上海新天地安达仕酒店)</div>')[0];
+                popup_6bc5a694cca74cba9f88d71e74947a7d.setContent(html_58c461793a2745cabebbe5388d9afb04);
+            
+
+            circle_marker_29a7559da55942e7a34d69cd6ce2b2ed.bindPopup(popup_6bc5a694cca74cba9f88d71e74947a7d)
+            ;
+
+            
+        
+    
+            var circle_marker_50286b155a064fc1a7cb812e09f5a3ea = L.circleMarker(
+                [31.23700683925969, 121.50306565518031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_8a264c2daaa54a49bb3ea33ea1725845 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3e4a451567a14ef19f4dcaa72e0fb92b = $('<div id="html_3e4a451567a14ef19f4dcaa72e0fb92b" style="width: 100.0%; height: 100.0%;">Din Tai Fung (鼎泰丰)</div>')[0];
+                popup_8a264c2daaa54a49bb3ea33ea1725845.setContent(html_3e4a451567a14ef19f4dcaa72e0fb92b);
+            
+
+            circle_marker_50286b155a064fc1a7cb812e09f5a3ea.bindPopup(popup_8a264c2daaa54a49bb3ea33ea1725845)
+            ;
+
+            
+        
+    
+            var circle_marker_a0a1b84759334537b4bd6069d03b7685 = L.circleMarker(
+                [31.240391067749076, 121.48522391338072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3eea2e4d503649c9a2ec8f14284d15ce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_170375f979674b0db6aff339171fedf1 = $('<div id="html_170375f979674b0db6aff339171fedf1" style="width: 100.0%; height: 100.0%;">Bar Rouge</div>')[0];
+                popup_3eea2e4d503649c9a2ec8f14284d15ce.setContent(html_170375f979674b0db6aff339171fedf1);
+            
+
+            circle_marker_a0a1b84759334537b4bd6069d03b7685.bindPopup(popup_3eea2e4d503649c9a2ec8f14284d15ce)
+            ;
+
+            
+        
+    
+            var circle_marker_7c2b21a021b24763a054d355f9ffd798 = L.circleMarker(
+                [31.237324747238123, 121.48493258496755],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3fa67202dcb14885a097198e2a3e6b48 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_78d533556abb4e11b9be4834915af2c6 = $('<div id="html_78d533556abb4e11b9be4834915af2c6" style="width: 100.0%; height: 100.0%;">Captain Bar (船长酒吧)</div>')[0];
+                popup_3fa67202dcb14885a097198e2a3e6b48.setContent(html_78d533556abb4e11b9be4834915af2c6);
+            
+
+            circle_marker_7c2b21a021b24763a054d355f9ffd798.bindPopup(popup_3fa67202dcb14885a097198e2a3e6b48)
+            ;
+
+            
+        
+    
+            var circle_marker_c03a0de86bec425abb8a5f325e009799 = L.circleMarker(
+                [31.236396600964326, 121.48131017267322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_516a00d3a0374533866773eae1d39dae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0ea978697a314240b86332c229e610fb = $('<div id="html_0ea978697a314240b86332c229e610fb" style="width: 100.0%; height: 100.0%;">Tock&#39;s</div>')[0];
+                popup_516a00d3a0374533866773eae1d39dae.setContent(html_0ea978697a314240b86332c229e610fb);
+            
+
+            circle_marker_c03a0de86bec425abb8a5f325e009799.bindPopup(popup_516a00d3a0374533866773eae1d39dae)
+            ;
+
+            
+        
+    
+            var circle_marker_ad3935d724824134996aa18c35ad884e = L.circleMarker(
+                [31.23874957537522, 121.49668410099349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_29b234a69d7945978d9619d3897b753f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a81cfd6a371c4e8cb2a69d6807872cd5 = $('<div id="html_a81cfd6a371c4e8cb2a69d6807872cd5" style="width: 100.0%; height: 100.0%;">Flair</div>')[0];
+                popup_29b234a69d7945978d9619d3897b753f.setContent(html_a81cfd6a371c4e8cb2a69d6807872cd5);
+            
+
+            circle_marker_ad3935d724824134996aa18c35ad884e.bindPopup(popup_29b234a69d7945978d9619d3897b753f)
+            ;
+
+            
+        
+    
+            var circle_marker_47dc3225762243ffb914758c72a874a4 = L.circleMarker(
+                [31.23928246544077, 121.4970602106349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ff6a955bb6984a72b2c7d36bf029fa9a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e5b5c390a2b439080b90c721c70098b = $('<div id="html_5e5b5c390a2b439080b90c721c70098b" style="width: 100.0%; height: 100.0%;">Apple Pudong (Apple 浦东)</div>')[0];
+                popup_ff6a955bb6984a72b2c7d36bf029fa9a.setContent(html_5e5b5c390a2b439080b90c721c70098b);
+            
+
+            circle_marker_47dc3225762243ffb914758c72a874a4.bindPopup(popup_ff6a955bb6984a72b2c7d36bf029fa9a)
+            ;
+
+            
+        
+    
+            var circle_marker_17230326be964b088c6db7d766107138 = L.circleMarker(
+                [31.234668879332993, 121.48683096042946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c24092d2a4c64343a7dbd60a5b794ee2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dd868c2a2c5247f081f4902a4c020b91 = $('<div id="html_dd868c2a2c5247f081f4902a4c020b91" style="width: 100.0%; height: 100.0%;">The Fellas</div>')[0];
+                popup_c24092d2a4c64343a7dbd60a5b794ee2.setContent(html_dd868c2a2c5247f081f4902a4c020b91);
+            
+
+            circle_marker_17230326be964b088c6db7d766107138.bindPopup(popup_c24092d2a4c64343a7dbd60a5b794ee2)
+            ;
+
+            
+        
+    
+            var circle_marker_1816f51e03374cc7a57d6a780a03c32e = L.circleMarker(
+                [31.218887963176982, 121.47800027604683],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_6b9cdce5712c4314abd1323b3cf0423a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a654e7846094666929619375514adea = $('<div id="html_1a654e7846094666929619375514adea" style="width: 100.0%; height: 100.0%;">Jackie&#39;s Beer Nest</div>')[0];
+                popup_6b9cdce5712c4314abd1323b3cf0423a.setContent(html_1a654e7846094666929619375514adea);
+            
+
+            circle_marker_1816f51e03374cc7a57d6a780a03c32e.bindPopup(popup_6b9cdce5712c4314abd1323b3cf0423a)
+            ;
+
+            
+        
+    
+            var circle_marker_b87128d7fb3b4e509afecaa0079d2a06 = L.circleMarker(
+                [31.234440976965352, 121.4824211108568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_477df72cd9d04d87856f201fc7c6bb1b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33e4a92b0e10432fbaaf5098933d374f = $('<div id="html_33e4a92b0e10432fbaaf5098933d374f" style="width: 100.0%; height: 100.0%;">The Stage</div>')[0];
+                popup_477df72cd9d04d87856f201fc7c6bb1b.setContent(html_33e4a92b0e10432fbaaf5098933d374f);
+            
+
+            circle_marker_b87128d7fb3b4e509afecaa0079d2a06.bindPopup(popup_477df72cd9d04d87856f201fc7c6bb1b)
+            ;
+
+            
+        
+    
+            var circle_marker_33100da5ffa34677b59b6fa475a82e10 = L.circleMarker(
+                [31.23849205764194, 121.49790197610854],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_503be97aa88144adb4826bc1c78e18b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cbe1f330cfc84d2e9ab26c5094cc3ad2 = $('<div id="html_cbe1f330cfc84d2e9ab26c5094cc3ad2" style="width: 100.0%; height: 100.0%;">IFC Mall (国际金融中心商场)</div>')[0];
+                popup_503be97aa88144adb4826bc1c78e18b8.setContent(html_cbe1f330cfc84d2e9ab26c5094cc3ad2);
+            
+
+            circle_marker_33100da5ffa34677b59b6fa475a82e10.bindPopup(popup_503be97aa88144adb4826bc1c78e18b8)
+            ;
+
+            
+        
+    
+            var circle_marker_f4a1d3c27c914210a2b0d2f873fcc167 = L.circleMarker(
+                [31.22319682178447, 121.4698351496552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c0de2de151e34750aab04a43d534d90c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7001ab3e3b8c428cab8ac8463f2cc6b4 = $('<div id="html_7001ab3e3b8c428cab8ac8463f2cc6b4" style="width: 100.0%; height: 100.0%;">The Langham Xintiandi (上海新天地朗廷酒店)</div>')[0];
+                popup_c0de2de151e34750aab04a43d534d90c.setContent(html_7001ab3e3b8c428cab8ac8463f2cc6b4);
+            
+
+            circle_marker_f4a1d3c27c914210a2b0d2f873fcc167.bindPopup(popup_c0de2de151e34750aab04a43d534d90c)
+            ;
+
+            
+        
+    
+            var circle_marker_e1c8e26bbdc0467aa242a195084318ad = L.circleMarker(
+                [31.231029885841885, 121.46726251773205],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_5cbdb683a1d64d1595b59353ca68f551 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc446bc43a2f4b7294c379c195b31138 = $('<div id="html_cc446bc43a2f4b7294c379c195b31138" style="width: 100.0%; height: 100.0%;">Shanghai Grand Theater (上海大剧院)</div>')[0];
+                popup_5cbdb683a1d64d1595b59353ca68f551.setContent(html_cc446bc43a2f4b7294c379c195b31138);
+            
+
+            circle_marker_e1c8e26bbdc0467aa242a195084318ad.bindPopup(popup_5cbdb683a1d64d1595b59353ca68f551)
+            ;
+
+            
+        
+    
+            var circle_marker_84068d20c5514e5d854d2e3d834d7367 = L.circleMarker(
+                [31.242822606328705, 121.48311557043023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_86bfb1ac3776472e9d7c7fc776bb2a5f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a79e12554e744f58018871aadfdde5b = $('<div id="html_2a79e12554e744f58018871aadfdde5b" style="width: 100.0%; height: 100.0%;">The Nest</div>')[0];
+                popup_86bfb1ac3776472e9d7c7fc776bb2a5f.setContent(html_2a79e12554e744f58018871aadfdde5b);
+            
+
+            circle_marker_84068d20c5514e5d854d2e3d834d7367.bindPopup(popup_86bfb1ac3776472e9d7c7fc776bb2a5f)
+            ;
+
+            
+        
+    
+            var circle_marker_2e055a5b581a4fdd9a4ba8995b3db282 = L.circleMarker(
+                [31.23735332980813, 121.50292835367837],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_e84350eeb9e14a9e99e0af6dba4f1fe3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a58a6784561471089e4f33b8a6da2f2 = $('<div id="html_9a58a6784561471089e4f33b8a6da2f2" style="width: 100.0%; height: 100.0%;">Starbucks (星巴克)</div>')[0];
+                popup_e84350eeb9e14a9e99e0af6dba4f1fe3.setContent(html_9a58a6784561471089e4f33b8a6da2f2);
+            
+
+            circle_marker_2e055a5b581a4fdd9a4ba8995b3db282.bindPopup(popup_e84350eeb9e14a9e99e0af6dba4f1fe3)
+            ;
+
+            
+        
+    
+            var circle_marker_b113d488026c4408af1a455e2c689904 = L.circleMarker(
+                [31.240492616564307, 121.4955932865478],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_f8eee8a5531a4208ad1ca9cb9c665526 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b4bdeb3cc8d8478989af33ff66da8ec1 = $('<div id="html_b4bdeb3cc8d8478989af33ff66da8ec1" style="width: 100.0%; height: 100.0%;">Oriental Tower-Space Module 350m (太空舱)</div>')[0];
+                popup_f8eee8a5531a4208ad1ca9cb9c665526.setContent(html_b4bdeb3cc8d8478989af33ff66da8ec1);
+            
+
+            circle_marker_b113d488026c4408af1a455e2c689904.bindPopup(popup_f8eee8a5531a4208ad1ca9cb9c665526)
+            ;
+
+            
+        
+    
+            var circle_marker_6cde803e7c6345dc93b264ae8c776ec4 = L.circleMarker(
+                [31.24255319848875, 121.48438787590663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_2c12f5624b4a42f38cc8e3a9cf51e1b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9b8dc3467fc44085953b569a71e3ae82 = $('<div id="html_9b8dc3467fc44085953b569a71e3ae82" style="width: 100.0%; height: 100.0%;">Imperial Treasure Fine Chinese Cuisine (御寶軒)</div>')[0];
+                popup_2c12f5624b4a42f38cc8e3a9cf51e1b6.setContent(html_9b8dc3467fc44085953b569a71e3ae82);
+            
+
+            circle_marker_6cde803e7c6345dc93b264ae8c776ec4.bindPopup(popup_2c12f5624b4a42f38cc8e3a9cf51e1b6)
+            ;
+
+            
+        
+    
+            var circle_marker_ad94d5e7cb4345d3986a4f69155bb9bb = L.circleMarker(
+                [31.236642179539977, 121.50286653775339],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_ba6f767d32f745fdb5cedd783c2c5cca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ab3381417d484e6982091050324fae60 = $('<div id="html_ab3381417d484e6982091050324fae60" style="width: 100.0%; height: 100.0%;">Park Hyatt 87th Floor</div>')[0];
+                popup_ba6f767d32f745fdb5cedd783c2c5cca.setContent(html_ab3381417d484e6982091050324fae60);
+            
+
+            circle_marker_ad94d5e7cb4345d3986a4f69155bb9bb.bindPopup(popup_ba6f767d32f745fdb5cedd783c2c5cca)
+            ;
+
+            
+        
+    
+            var circle_marker_0980c5535a0a4297a751fc9453562429 = L.circleMarker(
+                [31.236014346515077, 121.48546440127858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_02075a3f36004be3bbac0e32a8b05678 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3cef0eb3596e492fbb5d7f4dc75d7b31 = $('<div id="html_3cef0eb3596e492fbb5d7f4dc75d7b31" style="width: 100.0%; height: 100.0%;">蟹家大院</div>')[0];
+                popup_02075a3f36004be3bbac0e32a8b05678.setContent(html_3cef0eb3596e492fbb5d7f4dc75d7b31);
+            
+
+            circle_marker_0980c5535a0a4297a751fc9453562429.bindPopup(popup_02075a3f36004be3bbac0e32a8b05678)
+            ;
+
+            
+        
+    
+            var circle_marker_d634cee56fb145f18004d9749f28c7fe = L.circleMarker(
+                [31.236608735657683, 121.47979820953913],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_6f35401f040c472eb8fd5089bd02a531 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ac446da72a4a406d9d8f5e67cc7b2aad = $('<div id="html_ac446da72a4a406d9d8f5e67cc7b2aad" style="width: 100.0%; height: 100.0%;">M1NT</div>')[0];
+                popup_6f35401f040c472eb8fd5089bd02a531.setContent(html_ac446da72a4a406d9d8f5e67cc7b2aad);
+            
+
+            circle_marker_d634cee56fb145f18004d9749f28c7fe.bindPopup(popup_6f35401f040c472eb8fd5089bd02a531)
+            ;
+
+            
+        
+    
+            var circle_marker_384e0e04756940dab7fc35398cbe6dee = L.circleMarker(
+                [31.23701646172028, 121.49295959076484],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_14c0b9210fa04d8ea12b15ecc6cb2cf5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b0bdc98840b49e2aa16043c7e58aebf = $('<div id="html_8b0bdc98840b49e2aa16043c7e58aebf" style="width: 100.0%; height: 100.0%;">Starbucks (星巴克)</div>')[0];
+                popup_14c0b9210fa04d8ea12b15ecc6cb2cf5.setContent(html_8b0bdc98840b49e2aa16043c7e58aebf);
+            
+
+            circle_marker_384e0e04756940dab7fc35398cbe6dee.bindPopup(popup_14c0b9210fa04d8ea12b15ecc6cb2cf5)
+            ;
+
+            
+        
+    
+            var circle_marker_5b1cce3b0d934f928b8c770a01350619 = L.circleMarker(
+                [31.23640406009433, 121.47136389687614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_245b8e3a2a1b49219cd32b1c4f97ead8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3d913f7762754c83a27de229c7b7dfa8 = $('<div id="html_3d913f7762754c83a27de229c7b7dfa8" style="width: 100.0%; height: 100.0%;">Le Royal Club Lounge</div>')[0];
+                popup_245b8e3a2a1b49219cd32b1c4f97ead8.setContent(html_3d913f7762754c83a27de229c7b7dfa8);
+            
+
+            circle_marker_5b1cce3b0d934f928b8c770a01350619.bindPopup(popup_245b8e3a2a1b49219cd32b1c4f97ead8)
+            ;
+
+            
+        
+    
+            var circle_marker_9a059c8b1df7465bb13684f662d0a5a2 = L.circleMarker(
+                [31.226068764429744, 121.47016525268555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_cfa25fc8702e42f7878f5f82dd895957 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_79fa3d28ac3c4ddcb98a17c3c0bbebed = $('<div id="html_79fa3d28ac3c4ddcb98a17c3c0bbebed" style="width: 100.0%; height: 100.0%;">Ocean Grounds</div>')[0];
+                popup_cfa25fc8702e42f7878f5f82dd895957.setContent(html_79fa3d28ac3c4ddcb98a17c3c0bbebed);
+            
+
+            circle_marker_9a059c8b1df7465bb13684f662d0a5a2.bindPopup(popup_cfa25fc8702e42f7878f5f82dd895957)
+            ;
+
+            
+        
+    
+            var circle_marker_25ffb77c504c482da4c197857d790a0b = L.circleMarker(
+                [31.241202, 121.489058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_23eedeb64f2c47faba4493a124bf233e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_949007fe905d4753b37b71e85910e68a = $('<div id="html_949007fe905d4753b37b71e85910e68a" style="width: 100.0%; height: 100.0%;">Peninsula Lobby Lounge (半岛酒店大厅)</div>')[0];
+                popup_23eedeb64f2c47faba4493a124bf233e.setContent(html_949007fe905d4753b37b71e85910e68a);
+            
+
+            circle_marker_25ffb77c504c482da4c197857d790a0b.bindPopup(popup_23eedeb64f2c47faba4493a124bf233e)
+            ;
+
+            
+        
+    
+            var circle_marker_bbff7cc68d4841adba7c50d0be156d1c = L.circleMarker(
+                [31.236495455629207, 121.48651367418282],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_0f91a6b659d641ff808a3b3e1e5b0233 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f205a9cc291c478f87a835321c57d96c = $('<div id="html_f205a9cc291c478f87a835321c57d96c" style="width: 100.0%; height: 100.0%;">Atto Primo</div>')[0];
+                popup_0f91a6b659d641ff808a3b3e1e5b0233.setContent(html_f205a9cc291c478f87a835321c57d96c);
+            
+
+            circle_marker_bbff7cc68d4841adba7c50d0be156d1c.bindPopup(popup_0f91a6b659d641ff808a3b3e1e5b0233)
+            ;
+
+            
+        
+    
+            var circle_marker_694f4591dc334cbe99ad7defb6a1103e = L.circleMarker(
+                [31.236583882462075, 121.5059264881235],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_d5474a2739984f92ba3ff783e04f9d60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_55c5066a3dcb4cb49830db3ac047e330 = $('<div id="html_55c5066a3dcb4cb49830db3ac047e330" style="width: 100.0%; height: 100.0%;">Four Seasons Hotel Pudong, Shanghai (上海浦东四季酒店)</div>')[0];
+                popup_d5474a2739984f92ba3ff783e04f9d60.setContent(html_55c5066a3dcb4cb49830db3ac047e330);
+            
+
+            circle_marker_694f4591dc334cbe99ad7defb6a1103e.bindPopup(popup_d5474a2739984f92ba3ff783e04f9d60)
+            ;
+
+            
+        
+    
+            var circle_marker_7a68db4d3c9d4ac6b5d9d39d5a40ce23 = L.circleMarker(
+                [31.23727419362616, 121.49625346938276],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_5e8de3c5f4db45468225770f5c084b8e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1b3656ef41f74725b04f3e5f0e526924 = $('<div id="html_1b3656ef41f74725b04f3e5f0e526924" style="width: 100.0%; height: 100.0%;">Latina (拉蒂娜)</div>')[0];
+                popup_5e8de3c5f4db45468225770f5c084b8e.setContent(html_1b3656ef41f74725b04f3e5f0e526924);
+            
+
+            circle_marker_7a68db4d3c9d4ac6b5d9d39d5a40ce23.bindPopup(popup_5e8de3c5f4db45468225770f5c084b8e)
+            ;
+
+            
+        
+    
+            var circle_marker_be9d39f25d6f42789acd7e9c4859e88f = L.circleMarker(
+                [31.215843194047796, 121.47635042667387],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_64fab1f6d126483aa18addbbfa7ea11a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6dc3e46b752943b5bf2772dccbec8872 = $('<div id="html_6dc3e46b752943b5bf2772dccbec8872" style="width: 100.0%; height: 100.0%;">Lin Long Fang Dumpling (麟笼坊特色小笼包 LinLongFang Dumpling)</div>')[0];
+                popup_64fab1f6d126483aa18addbbfa7ea11a.setContent(html_6dc3e46b752943b5bf2772dccbec8872);
+            
+
+            circle_marker_be9d39f25d6f42789acd7e9c4859e88f.bindPopup(popup_64fab1f6d126483aa18addbbfa7ea11a)
+            ;
+
+            
+        
+    
+            var circle_marker_1ad8bdedfc3a417ead56af5341eb912b = L.circleMarker(
+                [31.228842381318373, 121.47368900922018],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_b78d0e7d065d47a8b30156979a2c25e3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3762606dac964c75a4d817fca426b0d9 = $('<div id="html_3762606dac964c75a4d817fca426b0d9" style="width: 100.0%; height: 100.0%;">Shanghai Concert Hall (上海音乐厅)</div>')[0];
+                popup_b78d0e7d065d47a8b30156979a2c25e3.setContent(html_3762606dac964c75a4d817fca426b0d9);
+            
+
+            circle_marker_1ad8bdedfc3a417ead56af5341eb912b.bindPopup(popup_b78d0e7d065d47a8b30156979a2c25e3)
+            ;
+
+            
+        
+    
+            var circle_marker_ba33b8db2c004e55bcf01641e3a6b81b = L.circleMarker(
+                [31.23790233926051, 121.46945552648276],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_5fa715f66e1a4723b2e7db05f0c71ab8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8c0ddbf49f0f4d639619c1b8b4074579 = $('<div id="html_8c0ddbf49f0f4d639619c1b8b4074579" style="width: 100.0%; height: 100.0%;">Hai Di Lao (海底捞火锅)</div>')[0];
+                popup_5fa715f66e1a4723b2e7db05f0c71ab8.setContent(html_8c0ddbf49f0f4d639619c1b8b4074579);
+            
+
+            circle_marker_ba33b8db2c004e55bcf01641e3a6b81b.bindPopup(popup_5fa715f66e1a4723b2e7db05f0c71ab8)
+            ;
+
+            
+        
+    
+            var circle_marker_44e1d7a8b5034d7fb7afe1f1a4778694 = L.circleMarker(
+                [31.222897484175935, 121.47090092170573],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_78457273998f43b5a4176c06d7727c40 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f51bbb342e8146bfa7db104f20753b45 = $('<div id="html_f51bbb342e8146bfa7db104f20753b45" style="width: 100.0%; height: 100.0%;">Yé Shanghai</div>')[0];
+                popup_78457273998f43b5a4176c06d7727c40.setContent(html_f51bbb342e8146bfa7db104f20753b45);
+            
+
+            circle_marker_44e1d7a8b5034d7fb7afe1f1a4778694.bindPopup(popup_78457273998f43b5a4176c06d7727c40)
+            ;
+
+            
+        
+    
+            var circle_marker_cfa92ca61299484fbeca71592c7bd539 = L.circleMarker(
+                [31.222938721680773, 121.4700219948888],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_6920d2390c8f4002aee35bd439f542ad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d697d941973c4c3a8629664bd1180b09 = $('<div id="html_d697d941973c4c3a8629664bd1180b09" style="width: 100.0%; height: 100.0%;">Cobra Lily (镜花水月)</div>')[0];
+                popup_6920d2390c8f4002aee35bd439f542ad.setContent(html_d697d941973c4c3a8629664bd1180b09);
+            
+
+            circle_marker_cfa92ca61299484fbeca71592c7bd539.bindPopup(popup_6920d2390c8f4002aee35bd439f542ad)
+            ;
+
+            
+        
+    
+            var circle_marker_ae819bdc092a424ea13c556b65c8f34f = L.circleMarker(
+                [31.241844, 121.495251],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_dd58113a6ebf4662ba74839ca9e5a8d8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4dea165efdaf4390975b05d26e18a086 = $('<div id="html_4dea165efdaf4390975b05d26e18a086" style="width: 100.0%; height: 100.0%;">Oriental Pearl Tower (东方明珠塔)</div>')[0];
+                popup_dd58113a6ebf4662ba74839ca9e5a8d8.setContent(html_4dea165efdaf4390975b05d26e18a086);
+            
+
+            circle_marker_ae819bdc092a424ea13c556b65c8f34f.bindPopup(popup_dd58113a6ebf4662ba74839ca9e5a8d8)
+            ;
+
+            
+        
+    
+            var circle_marker_db5bbe7868f648dcb51e0fc8c0989683 = L.circleMarker(
+                [31.244344025671364, 121.48375698650018],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_592a79e719e1421eacd93cc275f2f98c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d658fa53b711449c9d2772e17668a92b = $('<div id="html_d658fa53b711449c9d2772e17668a92b" style="width: 100.0%; height: 100.0%;">8½ Otto e Mezzo BOMBANA</div>')[0];
+                popup_592a79e719e1421eacd93cc275f2f98c.setContent(html_d658fa53b711449c9d2772e17668a92b);
+            
+
+            circle_marker_db5bbe7868f648dcb51e0fc8c0989683.bindPopup(popup_592a79e719e1421eacd93cc275f2f98c)
+            ;
+
+            
+        
+    
+            var circle_marker_c96643ab535c4aef837ba343b27737ce = L.circleMarker(
+                [31.23683453793152, 121.48589643787523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_1cb7ad3840204906aefe112e6e1d4f93 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4ff0944c8f614b68ba375d30ff377a70 = $('<div id="html_4ff0944c8f614b68ba375d30ff377a70" style="width: 100.0%; height: 100.0%;">M Glam (魅蓝)</div>')[0];
+                popup_1cb7ad3840204906aefe112e6e1d4f93.setContent(html_4ff0944c8f614b68ba375d30ff377a70);
+            
+
+            circle_marker_c96643ab535c4aef837ba343b27737ce.bindPopup(popup_1cb7ad3840204906aefe112e6e1d4f93)
+            ;
+
+            
+        
+    
+            var circle_marker_716fde8eb01544da9abf76ff1cfb265b = L.circleMarker(
+                [31.232215555383544, 121.46525990382573],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_eda91f7793994037aef5c27946f4e248 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe6f5163b045475abf0077b5193b0ae8 = $('<div id="html_fe6f5163b045475abf0077b5193b0ae8" style="width: 100.0%; height: 100.0%;">JW Marriott Hotel Shanghai at Tomorrow Square (上海明天广场JW万豪酒店)</div>')[0];
+                popup_eda91f7793994037aef5c27946f4e248.setContent(html_fe6f5163b045475abf0077b5193b0ae8);
+            
+
+            circle_marker_716fde8eb01544da9abf76ff1cfb265b.bindPopup(popup_eda91f7793994037aef5c27946f4e248)
+            ;
+
+            
+        
+    
+            var circle_marker_d2f187c8a55a45afb135691da076f28f = L.circleMarker(
+                [31.22524167218201, 121.46926141517645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_36ef7ed6eb674bd3a2e694ff069dbcb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a4829145e1d849fc95405dffd819f552 = $('<div id="html_a4829145e1d849fc95405dffd819f552" style="width: 100.0%; height: 100.0%;">Green Massage (青籁养生)</div>')[0];
+                popup_36ef7ed6eb674bd3a2e694ff069dbcb1.setContent(html_a4829145e1d849fc95405dffd819f552);
+            
+
+            circle_marker_d2f187c8a55a45afb135691da076f28f.bindPopup(popup_36ef7ed6eb674bd3a2e694ff069dbcb1)
+            ;
+
+            
+        
+    
+            var circle_marker_ec03087c7bfb45a7a4d9ad55b93bc4b8 = L.circleMarker(
+                [31.246909317874692, 121.48831941781857],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_766fa60ecc3f43d898224fa44d27ac24 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_134be73f958c4758bb8ab68d1e000a8d = $('<div id="html_134be73f958c4758bb8ab68d1e000a8d" style="width: 100.0%; height: 100.0%;">Vue Bar</div>')[0];
+                popup_766fa60ecc3f43d898224fa44d27ac24.setContent(html_134be73f958c4758bb8ab68d1e000a8d);
+            
+
+            circle_marker_ec03087c7bfb45a7a4d9ad55b93bc4b8.bindPopup(popup_766fa60ecc3f43d898224fa44d27ac24)
+            ;
+
+            
+        
+    
+            var circle_marker_edf64f81ad8d4df299b6f147193e8fa8 = L.circleMarker(
+                [31.24729624254251, 121.48876422210046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_d96448a261384d93a437b0e501e02c79 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cec59931c602408aba5b68a9c1c4ef38 = $('<div id="html_cec59931c602408aba5b68a9c1c4ef38" style="width: 100.0%; height: 100.0%;">Xindalu (新大陆)</div>')[0];
+                popup_d96448a261384d93a437b0e501e02c79.setContent(html_cec59931c602408aba5b68a9c1c4ef38);
+            
+
+            circle_marker_edf64f81ad8d4df299b6f147193e8fa8.bindPopup(popup_d96448a261384d93a437b0e501e02c79)
+            ;
+
+            
+        
+    
+            var circle_marker_050068eb8b9c4559896fc6eeb3379e23 = L.circleMarker(
+                [31.247205576511398, 121.48857120815944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_cc3cf76c5f384108b5ffa162b281b5d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d93e3f9f650c4c4a90055cd8dfc38ca6 = $('<div id="html_d93e3f9f650c4c4a90055cd8dfc38ca6" style="width: 100.0%; height: 100.0%;">Hyatt on the Bund Shanghai</div>')[0];
+                popup_cc3cf76c5f384108b5ffa162b281b5d0.setContent(html_d93e3f9f650c4c4a90055cd8dfc38ca6);
+            
+
+            circle_marker_050068eb8b9c4559896fc6eeb3379e23.bindPopup(popup_cc3cf76c5f384108b5ffa162b281b5d0)
+            ;
+
+            
+        
+    
+            var circle_marker_d20c0c6c567942adaa2ac7325a491a8f = L.circleMarker(
+                [31.23919696529113, 121.49719419797901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_b5b6ec9d82944e14ae57744d0e77c4cd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6da48cf893ab433db1f9b651613b4fd1 = $('<div id="html_6da48cf893ab433db1f9b651613b4fd1" style="width: 100.0%; height: 100.0%;">Morton&#39;s The Steakhouse (莫尔顿海鲜牛排坊)</div>')[0];
+                popup_b5b6ec9d82944e14ae57744d0e77c4cd.setContent(html_6da48cf893ab433db1f9b651613b4fd1);
+            
+
+            circle_marker_d20c0c6c567942adaa2ac7325a491a8f.bindPopup(popup_b5b6ec9d82944e14ae57744d0e77c4cd)
+            ;
+
+            
+        
+    
+            var circle_marker_fba5e82b36b14d8ba7893baa3fd04491 = L.circleMarker(
+                [31.21710252656857, 121.47010892629625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3cc43dfa515d49e697494737c67cf3ae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_260fa0ac8a7c4bd6a7b929fd4b1a5ecf = $('<div id="html_260fa0ac8a7c4bd6a7b929fd4b1a5ecf" style="width: 100.0%; height: 100.0%;">The Habit Burger Grill</div>')[0];
+                popup_3cc43dfa515d49e697494737c67cf3ae.setContent(html_260fa0ac8a7c4bd6a7b929fd4b1a5ecf);
+            
+
+            circle_marker_fba5e82b36b14d8ba7893baa3fd04491.bindPopup(popup_3cc43dfa515d49e697494737c67cf3ae)
+            ;
+
+            
+        
+    
+            var circle_marker_ba9fb0f02f584440b77ce08cc5276b20 = L.circleMarker(
+                [31.23442, 121.475763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_56b430ad82ff4d40968487ed7c32bc3f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ef8724b2fecc477eb23fb5e66529bda6 = $('<div id="html_ef8724b2fecc477eb23fb5e66529bda6" style="width: 100.0%; height: 100.0%;">Le Royal Méridien Shanghai (上海世茂皇家艾美酒店)</div>')[0];
+                popup_56b430ad82ff4d40968487ed7c32bc3f.setContent(html_ef8724b2fecc477eb23fb5e66529bda6);
+            
+
+            circle_marker_ba9fb0f02f584440b77ce08cc5276b20.bindPopup(popup_56b430ad82ff4d40968487ed7c32bc3f)
+            ;
+
+            
+        
+    
+            var circle_marker_4682dcbb24164ee8b24b8bf10a5493f0 = L.circleMarker(
+                [31.22503035245541, 121.46927238440043],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_dff642b1327640f69735b4f8e85f10b1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_084b6567b3744973b2fad4dd45eaa420 = $('<div id="html_084b6567b3744973b2fad4dd45eaa420" style="width: 100.0%; height: 100.0%;">K11 Art Mall (上海K11购物艺术中心)</div>')[0];
+                popup_dff642b1327640f69735b4f8e85f10b1.setContent(html_084b6567b3744973b2fad4dd45eaa420);
+            
+
+            circle_marker_4682dcbb24164ee8b24b8bf10a5493f0.bindPopup(popup_dff642b1327640f69735b4f8e85f10b1)
+            ;
+
+            
+        
+    
+            var circle_marker_15753f287bb148a5b3c7be087ea81b1d = L.circleMarker(
+                [31.242441656400327, 121.48547313495976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_fbbeabcd1718497a9b42554b6c967d71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b51f5585dbc141d39599b4cea0a53c58 = $('<div id="html_b51f5585dbc141d39599b4cea0a53c58" style="width: 100.0%; height: 100.0%;">Roosevelt Sky Bar</div>')[0];
+                popup_fbbeabcd1718497a9b42554b6c967d71.setContent(html_b51f5585dbc141d39599b4cea0a53c58);
+            
+
+            circle_marker_15753f287bb148a5b3c7be087ea81b1d.bindPopup(popup_fbbeabcd1718497a9b42554b6c967d71)
+            ;
+
+            
+        
+    
+            var circle_marker_724736d8290e4c689db171cf64aff3d2 = L.circleMarker(
+                [31.230426746264545, 121.4708978442392],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_0304e7a635e646e991e5157088d736a1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3e030daf6a7e4f259f11422f618af53c = $('<div id="html_3e030daf6a7e4f259f11422f618af53c" style="width: 100.0%; height: 100.0%;">Shanghai Museum (上海博物馆)</div>')[0];
+                popup_0304e7a635e646e991e5157088d736a1.setContent(html_3e030daf6a7e4f259f11422f618af53c);
+            
+
+            circle_marker_724736d8290e4c689db171cf64aff3d2.bindPopup(popup_0304e7a635e646e991e5157088d736a1)
+            ;
+
+            
+        
+    
+            var circle_marker_df51d5bda323415daf64321378695da7 = L.circleMarker(
+                [31.222478561092675, 121.47027362543047],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_368b96e4fbb14942a7a60f92282fa052 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b5d7d8dca0f4d2783b84b8f197c076d = $('<div id="html_6b5d7d8dca0f4d2783b84b8f197c076d" style="width: 100.0%; height: 100.0%;">Calix</div>')[0];
+                popup_368b96e4fbb14942a7a60f92282fa052.setContent(html_6b5d7d8dca0f4d2783b84b8f197c076d);
+            
+
+            circle_marker_df51d5bda323415daf64321378695da7.bindPopup(popup_368b96e4fbb14942a7a60f92282fa052)
+            ;
+
+            
+        
+    
+            var circle_marker_af8c81b680ac42fc85fb9577f20245ee = L.circleMarker(
+                [31.236645367847828, 121.50298413231252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_3c67ccf83c08483a88dafa1234bde982 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7840edbf142546cebc5a1e6d706a1a49 = $('<div id="html_7840edbf142546cebc5a1e6d706a1a49" style="width: 100.0%; height: 100.0%;">Park Hyatt Shanghai</div>')[0];
+                popup_3c67ccf83c08483a88dafa1234bde982.setContent(html_7840edbf142546cebc5a1e6d706a1a49);
+            
+
+            circle_marker_af8c81b680ac42fc85fb9577f20245ee.bindPopup(popup_3c67ccf83c08483a88dafa1234bde982)
+            ;
+
+            
+        
+    
+            var circle_marker_1dc0452d58c943f7ad0b8883822a5f01 = L.circleMarker(
+                [31.247146873393394, 121.48866016293903],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_28e402dcd6ad46a59470bf5bbda80dde = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a836c4d0cfd44fc6b23709ea1c0a9dc9 = $('<div id="html_a836c4d0cfd44fc6b23709ea1c0a9dc9" style="width: 100.0%; height: 100.0%;">Bund Club</div>')[0];
+                popup_28e402dcd6ad46a59470bf5bbda80dde.setContent(html_a836c4d0cfd44fc6b23709ea1c0a9dc9);
+            
+
+            circle_marker_1dc0452d58c943f7ad0b8883822a5f01.bindPopup(popup_28e402dcd6ad46a59470bf5bbda80dde)
+            ;
+
+            
+        
+    
+            var circle_marker_051ba99d3fd54e3ab4b015a07903c276 = L.circleMarker(
+                [31.240207090187976, 121.50096971109078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_92968971af7d493aaf1cdf1018b0cb42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5387c0e9debe454097e6a0cc0f4f5d08 = $('<div id="html_5387c0e9debe454097e6a0cc0f4f5d08" style="width: 100.0%; height: 100.0%;">Lujiazui Central Green Space (陆家嘴中心绿地)</div>')[0];
+                popup_92968971af7d493aaf1cdf1018b0cb42.setContent(html_5387c0e9debe454097e6a0cc0f4f5d08);
+            
+
+            circle_marker_051ba99d3fd54e3ab4b015a07903c276.bindPopup(popup_92968971af7d493aaf1cdf1018b0cb42)
+            ;
+
+            
+        
+    
+            var circle_marker_f881145a65c24b11a63783dd004a221d = L.circleMarker(
+                [31.238273, 121.476807],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_1e102ba897eb4b5a8dde297b8b508c15 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85b6a03f3381483590d047a41529f5ae = $('<div id="html_85b6a03f3381483590d047a41529f5ae" style="width: 100.0%; height: 100.0%;">Nanjing Road Pedestrian Street (南京路步行街)</div>')[0];
+                popup_1e102ba897eb4b5a8dde297b8b508c15.setContent(html_85b6a03f3381483590d047a41529f5ae);
+            
+
+            circle_marker_f881145a65c24b11a63783dd004a221d.bindPopup(popup_1e102ba897eb4b5a8dde297b8b508c15)
+            ;
+
+            
+        
+    
+            var circle_marker_19170ec8827a46b590ac583d7fc13fa8 = L.circleMarker(
+                [31.238215065759604, 121.49370431900023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_87cd6f6c20a0426490c143547f14ace4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_76baf7f77eb54e78a279b08db748cd35 = $('<div id="html_76baf7f77eb54e78a279b08db748cd35" style="width: 100.0%; height: 100.0%;">Din Tai Fung (鼎泰丰)</div>')[0];
+                popup_87cd6f6c20a0426490c143547f14ace4.setContent(html_76baf7f77eb54e78a279b08db748cd35);
+            
+
+            circle_marker_19170ec8827a46b590ac583d7fc13fa8.bindPopup(popup_87cd6f6c20a0426490c143547f14ace4)
+            ;
+
+            
+        
+    
+            var circle_marker_06610e2265024c8e91882dbab74f5efe = L.circleMarker(
+                [31.234279223152587, 121.47052043667763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_fd491da966d94ff0b9b5ea25e7687ad1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e71cad0eb20445c8a285b36c6bb33a11 = $('<div id="html_e71cad0eb20445c8a285b36c6bb33a11" style="width: 100.0%; height: 100.0%;">People&#39;s Square (人民广场)</div>')[0];
+                popup_fd491da966d94ff0b9b5ea25e7687ad1.setContent(html_e71cad0eb20445c8a285b36c6bb33a11);
+            
+
+            circle_marker_06610e2265024c8e91882dbab74f5efe.bindPopup(popup_fd491da966d94ff0b9b5ea25e7687ad1)
+            ;
+
+            
+        
+    
+            var circle_marker_69495c02fcaa484a98a0c5135d5715ca = L.circleMarker(
+                [31.236703, 121.473337],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c96606bdec0d41c1adc941c161dc6b3b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6627c620e390460aa304ab6220c5713d = $('<div id="html_6627c620e390460aa304ab6220c5713d" style="width: 100.0%; height: 100.0%;">Shanghai Marriott Hotel City Centre (上海雅居乐万豪酒店)</div>')[0];
+                popup_c96606bdec0d41c1adc941c161dc6b3b.setContent(html_6627c620e390460aa304ab6220c5713d);
+            
+
+            circle_marker_69495c02fcaa484a98a0c5135d5715ca.bindPopup(popup_c96606bdec0d41c1adc941c161dc6b3b)
+            ;
+
+            
+        
+    
+            var circle_marker_7f8fff1457e244ee8803bbc6e4a39ceb = L.circleMarker(
+                [31.241146840827454, 121.47932481024314],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_1e4361236d1d4b2fa8d847217a0cf1a9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ada7bfdb175646d6b296bc93b5e2ccff = $('<div id="html_ada7bfdb175646d6b296bc93b5e2ccff" style="width: 100.0%; height: 100.0%;">Yang&#39;s Fried Dumplings (小杨生煎)</div>')[0];
+                popup_1e4361236d1d4b2fa8d847217a0cf1a9.setContent(html_ada7bfdb175646d6b296bc93b5e2ccff);
+            
+
+            circle_marker_7f8fff1457e244ee8803bbc6e4a39ceb.bindPopup(popup_1e4361236d1d4b2fa8d847217a0cf1a9)
+            ;
+
+            
+        
+    
+            var circle_marker_2522c7c1a36f4e2f813b720035075c8d = L.circleMarker(
+                [31.235330734892386, 121.47217812169976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_1e5285a8abb34d0db3136bc14e06999c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5eb04bc2926349ebb50ee4a92c4d5611 = $('<div id="html_5eb04bc2926349ebb50ee4a92c4d5611" style="width: 100.0%; height: 100.0%;">The Yangtze Boutique Hotel (扬子精品酒店)</div>')[0];
+                popup_1e5285a8abb34d0db3136bc14e06999c.setContent(html_5eb04bc2926349ebb50ee4a92c4d5611);
+            
+
+            circle_marker_2522c7c1a36f4e2f813b720035075c8d.bindPopup(popup_1e5285a8abb34d0db3136bc14e06999c)
+            ;
+
+            
+        
+    
+            var circle_marker_22959dcc93b74a2d824c3dfdb686aa2a = L.circleMarker(
+                [31.236463789162293, 121.46616021211192],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_c7a7f2138a7d40e1b50d9d3792a60bc8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_75be80e23a6344b7995f92a733845555 = $('<div id="html_75be80e23a6344b7995f92a733845555" style="width: 100.0%; height: 100.0%;">Jia Jia Tangbao (佳家汤包)</div>')[0];
+                popup_c7a7f2138a7d40e1b50d9d3792a60bc8.setContent(html_75be80e23a6344b7995f92a733845555);
+            
+
+            circle_marker_22959dcc93b74a2d824c3dfdb686aa2a.bindPopup(popup_c7a7f2138a7d40e1b50d9d3792a60bc8)
+            ;
+
+            
+        
+    
+            var circle_marker_d0adc8a3c07c414184279dddbe3fc4d9 = L.circleMarker(
+                [31.243454347497007, 121.48522850534363],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_70a1ff9220764793994d1dbc15647b37 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33f90a90de0448c3bad1c495acdb8faf = $('<div id="html_33f90a90de0448c3bad1c495acdb8faf" style="width: 100.0%; height: 100.0%;">Sir Elly&#39;s Terrace</div>')[0];
+                popup_70a1ff9220764793994d1dbc15647b37.setContent(html_33f90a90de0448c3bad1c495acdb8faf);
+            
+
+            circle_marker_d0adc8a3c07c414184279dddbe3fc4d9.bindPopup(popup_70a1ff9220764793994d1dbc15647b37)
+            ;
+
+            
+        
+    
+            var circle_marker_dc007731e8084341ac9b19c7f43fb833 = L.circleMarker(
+                [31.220743779846675, 121.470101677678],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_8aef2194adc74453bb573a8c98dd74c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9582dfaf86ee4b86b8fd492c014c7082 = $('<div id="html_9582dfaf86ee4b86b8fd492c014c7082" style="width: 100.0%; height: 100.0%;">Crystal Jade (翡翠酒家)</div>')[0];
+                popup_8aef2194adc74453bb573a8c98dd74c0.setContent(html_9582dfaf86ee4b86b8fd492c014c7082);
+            
+
+            circle_marker_dc007731e8084341ac9b19c7f43fb833.bindPopup(popup_8aef2194adc74453bb573a8c98dd74c0)
+            ;
+
+            
+        
+    
+            var circle_marker_d257c727b04b4c6ca02abe041a272dc5 = L.circleMarker(
+                [31.225189143225247, 121.46109282451019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_37c5affd461e430dac6949c415c41e3e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2f128ff3b70047b9b8e811935f454d5a = $('<div id="html_2f128ff3b70047b9b8e811935f454d5a" style="width: 100.0%; height: 100.0%;">Homeslice</div>')[0];
+                popup_37c5affd461e430dac6949c415c41e3e.setContent(html_2f128ff3b70047b9b8e811935f454d5a);
+            
+
+            circle_marker_d257c727b04b4c6ca02abe041a272dc5.bindPopup(popup_37c5affd461e430dac6949c415c41e3e)
+            ;
+
+            
+        
+    
+            var circle_marker_ffa369d82c7a41ec81dde9249445f71c = L.circleMarker(
+                [31.24574167414966, 121.50307782549399],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_2e638be233ee4a4a97a778b99cf948d5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f45da4d093064975ab64ff7b8670e78e = $('<div id="html_f45da4d093064975ab64ff7b8670e78e" style="width: 100.0%; height: 100.0%;">Mandarin Oriental, Shanghai (上海浦東文華東方酒店)</div>')[0];
+                popup_2e638be233ee4a4a97a778b99cf948d5.setContent(html_f45da4d093064975ab64ff7b8670e78e);
+            
+
+            circle_marker_ffa369d82c7a41ec81dde9249445f71c.bindPopup(popup_2e638be233ee4a4a97a778b99cf948d5)
+            ;
+
+            
+        
+    
+            var circle_marker_48f18224e95947b898445ef8f3c68c02 = L.circleMarker(
+                [31.225107185394386, 121.46920482123998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_28ff51d09daf4af58a8323d1145fc89d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dccdfccc6bed4d7abc23c8006284299d = $('<div id="html_dccdfccc6bed4d7abc23c8006284299d" style="width: 100.0%; height: 100.0%;">Little Bean</div>')[0];
+                popup_28ff51d09daf4af58a8323d1145fc89d.setContent(html_dccdfccc6bed4d7abc23c8006284299d);
+            
+
+            circle_marker_48f18224e95947b898445ef8f3c68c02.bindPopup(popup_28ff51d09daf4af58a8323d1145fc89d)
+            ;
+
+            
+        
+    
+            var circle_marker_b6b1e5e53f7a4a1d8d23c6d7d8ab9adc = L.circleMarker(
+                [31.227316704758064, 121.45976716718206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_bac506ab1f464e208d7b1a69869e4b0d);
+            
+    
+            var popup_12f9f61d34ac4b4fa4415ef205cc19f3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c5326be6468444f941e605e4f36294c = $('<div id="html_9c5326be6468444f941e605e4f36294c" style="width: 100.0%; height: 100.0%;">Skin City 5.5 Spa</div>')[0];
+                popup_12f9f61d34ac4b4fa4415ef205cc19f3.setContent(html_9c5326be6468444f941e605e4f36294c);
+            
+
+            circle_marker_b6b1e5e53f7a4a1d8d23c6d7d8ab9adc.bindPopup(popup_12f9f61d34ac4b4fa4415ef205cc19f3)
+            ;
+
+            
+        
+</script>
